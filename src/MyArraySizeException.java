@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class MyArraySizeException {
+public class MyArraySizeException extends  ArrayIndexOutOfBoundsException{
+
+    public MyArraySizeException(){
+        super("МАссив другого размера");
+    }
 }
